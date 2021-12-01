@@ -18,6 +18,8 @@ body {
   --background-color: #e5e5e5;
   color: var(--primary-text-color);
   font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
 }
 
 /* LOGO */
@@ -60,11 +62,6 @@ body {
 }
 
 .list {
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
   list-style: none;
 }
 
@@ -77,6 +74,9 @@ body {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 
 /* BUTTON */
@@ -104,6 +104,7 @@ button:focus {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 .benefits p {
   font-size: 14px;
@@ -129,18 +130,22 @@ button:focus {
 
 .work-list .title {
   color: var(--title-text-color);
-  font-style: normal;
   font-weight: bold;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
 }
 
+.work-list p {
+  font-size: 16px;
+  line-height: 1.872;
+  letter-spacing: 0.03em;
+}
+}
+
 /* FOOTER */
 .footer {
   background-color: #2f303a;
-  font-style: normal;
-  font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -151,4 +156,8 @@ button:focus {
 }
 .footer .link {
   color: rgba(255, 255, 255, 0.6);
+}
+
+address {
+  font-style: normal;
 }
