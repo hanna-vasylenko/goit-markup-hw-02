@@ -121,7 +121,10 @@ button:focus {
 .section-title {
   color: var(--title-text-color);
 }
-
+/* ABOUT TEAM */
+.section .team {
+  background-color: var(--secondary-background-color);
+}
 .team .title {
   color: var(--title-text-color);
   font-weight: 500;
