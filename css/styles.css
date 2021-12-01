@@ -45,6 +45,10 @@ body {
 
 .link {
   text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 
 /* Site Nav */
@@ -89,14 +93,20 @@ body {
 /* BUTTON */
 button {
   font-family: inherit;
+  font-size: 16px;
 }
-button.primary {
+.hero-button {
+  font-weight: 700;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
   color: #ffffff;
   background-color: var(--accent-color);
 }
-button.secondary {
+.portfolio.button {
+  font-weight: 500;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
   color: var(--title-text-color);
-  background-color: var(--secondary-background-color);
 }
 button:hover,
 button:focus {
