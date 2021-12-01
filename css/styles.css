@@ -102,7 +102,8 @@ button {
   color: #ffffff;
   background-color: var(--accent-color);
 }
-.portfolio.button {
+.portfolio,
+button {
   font-weight: 500;
   line-height: 1.62;
   letter-spacing: 0.03em;
