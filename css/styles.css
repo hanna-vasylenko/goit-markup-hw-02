@@ -90,27 +90,25 @@ body {
   text-transform: uppercase;
 }
 
-/* BUTTON */
-button {
+.hero-button {
   font-family: inherit;
   font-size: 16px;
-}
-.hero-button {
   font-weight: 700;
   line-height: 1.87;
   letter-spacing: 0.06em;
   color: #ffffff;
   background-color: var(--accent-color);
 }
-.portfolio,
-button {
+.portfolio-button {
+  font-family: inherit;
+  font-size: 16px;
   font-weight: 500;
   line-height: 1.62;
   letter-spacing: 0.03em;
   color: var(--title-text-color);
 }
-button:hover,
-button:focus {
+.portfolio-button:hover,
+.portfolio-button:focus {
   color: #ffffff;
   background-color: var(--accent-color);
 }
